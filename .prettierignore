@@ -1,0 +1,8 @@
+.idea/
+.next/
+.vscode/
+.swc/
+node_modules/
+public/
+.vercel/
+package-lock.json
