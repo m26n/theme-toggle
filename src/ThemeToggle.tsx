@@ -17,7 +17,7 @@ function getDarkModeQuery() {
 }
 
 function resolveTheme(theme: Theme) {
-  if (theme === "system") {
+  if (theme === themes.system) {
     return getDarkModeQuery().matches ? themes.dark : themes.light;
   }
   return theme;
@@ -42,7 +42,7 @@ function useTheme() {
     const mediaQuery = getDarkModeQuery();
 
     function handleMediaQueryChange(_: MediaQueryListEvent) {
-      if (theme === "system") {
+      if (theme === themes.system) {
         applyTheme();
       }
     }

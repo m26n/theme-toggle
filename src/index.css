@@ -4,8 +4,8 @@
 @custom-variant red (&:where([data-theme=red], [data-theme=red] *));
 
 @theme {
-  --color-light-blue: oklch(0.88 0.0592 262.47);
-  --color-dark-blue: oklch(0.39 0.0592 262.47);
+  --color-light-blue: oklch(0.78 0.0592 262.47);
+  --color-dark-blue: oklch(0.09 0.0592 262.47);
 
   --color-light-red: oklch(0.71 0.063 24.24);
   --color-dark-red: oklch(0.27 0.063 24.24);
